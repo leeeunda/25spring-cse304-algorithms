@@ -3,7 +3,7 @@ import importlib.util
 
 # 동적으로 import
 module_name = "seqsearch"
-file_path = "1.1.seqsearch.py"
+file_path = "./Week-1/1.1.seqsearch.py"
 
 spec = importlib.util.spec_from_file_location(module_name, file_path)
 seqsearch_module = importlib.util.module_from_spec(spec)

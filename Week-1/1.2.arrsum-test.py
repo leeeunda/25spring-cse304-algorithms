@@ -3,7 +3,7 @@ import importlib.util
 
 # 동적으로 import
 module_name = "arrsum"
-file_path = "1.2.arrsum.py"
+file_path = "./Week-1/1.2.arrsum.py"
 
 spec = importlib.util.spec_from_file_location(module_name, file_path)
 arrsum_module = importlib.util.module_from_spec(spec)

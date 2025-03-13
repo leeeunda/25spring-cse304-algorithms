@@ -3,7 +3,7 @@ import importlib.util
 
 # 동적으로 import
 module_name = "exchangesort"
-file_path = "1.3.exchangesort.py"
+file_path = "./Week-1/1.3.exchangesort.py"
 
 spec = importlib.util.spec_from_file_location(module_name, file_path)
 exchangesort_module = importlib.util.module_from_spec(spec)
