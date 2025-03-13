@@ -1,3 +1,6 @@
+# 이름: 이다은
+# 학번: 2020100684
+
 from typing import List
 
 def exchangesort(n: int, S: List[int]) -> None:

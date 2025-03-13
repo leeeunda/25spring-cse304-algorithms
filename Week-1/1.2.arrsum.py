@@ -1,3 +1,6 @@
+# 이름: 이다은
+# 학번: 2020100684
+
 from typing import List
 
 def arrsum(n: int, S: List[int]) -> int:
