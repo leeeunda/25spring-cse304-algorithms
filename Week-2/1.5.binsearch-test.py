@@ -3,7 +3,7 @@ import importlib.util
 
 # 동적으로 binsearch 모듈 import
 module_name = "binsearch"
-file_path = "1.5.binsearch.py"
+file_path = "./Week-2/1.5.binsearch.py"
 
 spec = importlib.util.spec_from_file_location(module_name, file_path)
 binsearch_module = importlib.util.module_from_spec(spec)

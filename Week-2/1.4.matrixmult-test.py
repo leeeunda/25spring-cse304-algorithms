@@ -2,10 +2,9 @@ import sys
 import importlib.util
 import random
 
-
 # 동적으로 import
 module_name = "matrixmult"
-file_path = "1.4.matrixmult.py"
+file_path = "./Week-2/1.4.matrixmult.py"
 
 spec = importlib.util.spec_from_file_location(module_name, file_path)
 matrixmult_module = importlib.util.module_from_spec(spec)

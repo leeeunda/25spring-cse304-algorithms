@@ -4,7 +4,7 @@ import time
 
 # 동적으로 fib2 모듈 import
 module_name = "fib2"
-file_path = "1.7.fib2.py"
+file_path = "./Week-2/1.7.fib2.py"
 
 spec = importlib.util.spec_from_file_location(module_name, file_path)
 fib2_module = importlib.util.module_from_spec(spec)
